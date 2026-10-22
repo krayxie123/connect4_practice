@@ -11,6 +11,14 @@ class board:
         for row in range(self.length):
             print(self.board[row])
 
+    def check_win_condition(self):
+        pass
+
+    # some matrix down stuff
+    # pass
+    def prop(self):
+        pass
+
 
 if __name__ == "__main__":
     chicken = board(6)
