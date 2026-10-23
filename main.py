@@ -11,7 +11,7 @@ class board:
         self.coin = coins()
 
     def display(self):
-        for row in range(self.length):
+        for row in range(self.length - 1, -1, -1):
             print(self.board[row])
 
     def check_win_condition(self):
